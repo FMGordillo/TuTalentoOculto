@@ -1,0 +1,189 @@
+{
+  "countries": {
+    "Argentina": "ar",
+    "Bolivia": "bo",
+    "Chile": "cl",
+    "Colombia": "co",
+    "Ecuador": "ec",
+    "Paraguay": "py",
+    "Peru": "pe",
+    "Uruguay": "uy",
+    "Venezuela": "ve",
+    "Otro": "xx"
+  },
+  "professions": {
+    "SJIT": [
+      "Ejecutivos de Negocios",
+      "Administradores y Gerentes",
+      "Contadores y Financieros",
+      "Detectives",
+      "Jueces",
+      "Abogados",
+      "Doctores y Dentistas",
+      "Programadores y Analistas de Sistemas"
+    ],
+    "SJET": [
+      "Administradores y Gerentes",
+      "Detectives",
+      "Jueces",
+      "Financieros",
+      "Docentes",
+      "Representantes de Ventas"
+    ],
+    "SJIF": [
+      "Decoradores de Interiores",
+      "Diseñadores",
+      "Enfermeros",
+      "Administradores y Gerentes",
+      "Asistentes Administrativos",
+      "Trabajores Sociales y Consejeros",
+      "Asistentes Legales",
+      "Gerentes",
+      "Comerciantes"
+    ],
+    "SJEF": [
+      "Enfermeros",
+      "Docentes",
+      "Médicos",
+      "Gerentes",
+      "Trabajadores Sociales y Consejeros",
+      "Contadores",
+      "Asistentes Administrativos"
+    ],
+    "SPIT": [
+      "Detectives",
+      "Patólogos Forenses",
+      "Programadores y Analista de Sistemas",
+      "Ingenieros",
+      "Carpinteros",
+      "Mecánicos",
+      "Pilotos, Conductores y Motociclistas",
+      "Atletas",
+      "Emprendedores"
+    ],
+    "SPET": [
+      "Representantes de Ventas",
+      "Especialistas en Marketing",
+      "Detectives",
+      "Paramédicos / Técnicos de Emergencias Médicas",
+      "Técnicos de PC y cableado",
+      "Soporte Técnico",
+      "Emprendedores",
+      "Atletas"
+    ],
+    "SPEF": [
+      "Artista / Actor / Actriz",
+      "Representantes de Ventas",
+      "Trabajadores Sociales y Consejeros",
+      "Diseñadores de Moda",
+      "Decoradores de Interiores",
+      "Consultores",
+      "Fotógrafos"
+    ],
+    "SPIF": [
+      "Artista",
+      "Músicos / Compositores",
+      "Diseñadores",
+      "Trabajadores Sociales y Consejeros",
+      "Docentes",
+      "Psicólogos",
+      "Veterinarios",
+      "Guardaparques",
+      "Pediatras"
+    ],
+    "NJET": [
+      "Ejecutivos Corporativos",
+      "Emprendedores",
+      "Consultores de Teconología",
+      "Abogados",
+      "Jueces",
+      "Administradores y Gerentes",
+      "Docentes Universitarios"
+    ],
+    "NJIT": [
+      "Científicos",
+      "Ingenieros",
+      "Docentes",
+      "Doctores y Dentistas",
+      "Administradores y Gerentes",
+      "Abogados",
+      "Jueces",
+      "Programadores y Analistas de Sistemas"
+    ],
+    "NPET": [
+      "Abogados",
+      "Psicólogos",
+      "Emprendendores",
+      "Fotógrafos",
+      "Consultores",
+      "Ingenieros",
+      "Científicos",
+      "Actor / Actriz",
+      "Representante de Ventas",
+      "Especialista en Marketing",
+      "Programadores y Analistas de Sistemas"
+    ],
+    "NPIT": [
+      "Físicos y Químicos",
+      "Fotógrafos",
+      "Planificadores Estratégicos",
+      "Matemáticos",
+      "Docentes Universitarios",
+      "Programadores y Analistas de Sistemas",
+      "Escritores Técnicos",
+      "Ingenieros",
+      "Abogados",
+      "Jueces",
+      "Investigadores Forenses",
+      "Silvicultores y Guardaparques"
+    ],
+    "NJEF": [
+      "Facilitadores",
+      "Consultores",
+      "Psicólogos",
+      "Trabajadores Sociales y Consejeros",
+      "Docentes",
+      "Representantes de Ventas",
+      "Especialistas en Recursos Humanos",
+      "Gerentes",
+      "Coordinadores de Eventos",
+      "Políticos y Diplomáticos",
+      "Escritores",
+      "Comunicadores"
+    ],
+    "NJIF": [
+      "Docentes",
+      "Doctores y Dentistas",
+      "Doctores en diferentes especialidades",
+      "Psicólogos",
+      "Psiquiatras",
+      "Trabajadores Sociales y Consultores",
+      "Músicos y Artistas",
+      "Fotógrafos"
+    ],
+    "NPEF": [
+      "Consultores",
+      "Psicólogos",
+      "Emprendedores",
+      "Actor / Actriz",
+      "Docentes",
+      "Consejeros",
+      "Políticos y Diplomáticos",
+      "Escritores",
+      "Periodistas",
+      "Programadores y Analistas de Sistemas",
+      "Científicos",
+      "Ingenieros",
+      "Artistas"
+    ],
+    "NPIF": [
+      "Escritores",
+      "Trabajadores Sociales y Consejeros",
+      "Docentes",
+      "Psicólogos",
+      "Psiquíatras",
+      "Músicos",
+      "Comunicadores"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    h1 Talentos ocultos
+
+    h2 Tu pais :V
+    img(src="https://www.countryflags.io/" + country + "/flat/64.png", alt="", srcset="")
+
+    h2 Y tus posibles profesiones
+    ul
+        each profession in professions
+            li= profession

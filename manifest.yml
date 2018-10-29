@@ -1,0 +1,11 @@
+applications:
+  - name: TuTalentoOcultoApp
+    disk_quota: 1G
+    instances: 1
+    memory: 128M
+    routes:
+      - route: tutalentoocultoapp.mybluemix.net
+    services:
+      - FMGordillo-Personality-Insights-28
+    stack: cflinuxfs2
+    buildpack: https://github.com/cloudfoundry/nodejs-buildpack

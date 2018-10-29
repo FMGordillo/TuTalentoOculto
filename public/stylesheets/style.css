@@ -1,0 +1,102 @@
+html {
+  width: 100vw;
+  height: 100vh;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font: 14px 'IBM Plex Sans', sans-serif;
+}
+h1 {
+  font-size: 3rem;
+}
+a {
+  color: #00b7ff;
+}
+input {
+  border-radius: 12px;
+  padding-left: 10px;
+  border-style: none;
+}
+
+.description-md {
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .description-xl {
+    display: none;
+  }
+  .description-md {
+    display: block;
+  }
+}
+
+#modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(25, 100, 100, 0.6);
+  transition: display 0.5s ease-in-out;
+}
+
+.modal-content {
+  background-color: #00b7ff;
+  margin: 5% 15%;
+  padding: 3rem;
+  border: 1px solid #888;
+  -moz-box-shadow: 3px 3px 5px 6px #3b0346;
+  -webkit-box-shadow: 3px 3px 5px 6px #3b0346;
+  box-shadow: 3px 3px 5px 6px #3b0346;
+}
+
+.modal-close {
+  float: right;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.welcome {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr 0.25fr;
+  grid-template-areas:
+    'header'
+    'content'
+    'footer';
+  justify-items: center;
+  align-items: center;
+}
+
+.header-area {
+  grid-area: header;
+  text-align: center;
+  margin: 10px;
+}
+
+.content-area {
+  grid-area: content;
+}
+
+.footer-area {
+  grid-area: footer;
+  text-align: center;
+  width: 100vw;
+  color: white;
+  background-color: #3b0346;
+}
