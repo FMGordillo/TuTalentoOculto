@@ -1,12 +1,16 @@
 extends layout
 
 block content
-    h1 Talentos ocultos
+  .container
+    .header-area
+      h1 Talentos ocultos
+    .content-area
+      h2 Tu pais :V
+      img(src="https://www.countryflags.io/" + country + "/flat/64.png", alt="", srcset="")
 
-    h2 Tu pais :V
-    img(src="https://www.countryflags.io/" + country + "/flat/64.png", alt="", srcset="")
-
-    h2 Y tus posibles profesiones
-    ul
+      h2 Y tus posibles profesiones
+      ul
         each profession in professions
             li= profession
+    .footer-area
+      span hola mundo

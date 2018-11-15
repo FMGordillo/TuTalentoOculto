@@ -54,7 +54,7 @@ block content
         br
         | The foregoing is the complete agreement between you and IBM regarding your use of the Application and replaces any prior communications related to such use
         br
-  .welcome
+  .container
     .header-area
       h1 Descubr&iacute; tus talentos ocultos con Watson
       h2.description-xl M&uacute;sica, F&iacute;sica, Arte, Psicolog&iacute;a, Matem&aacute;tica...
@@ -64,15 +64,14 @@ block content
         | Enterate m&aacute;s y aprovech&aacute; tu potencial.
       h2.description-md
         | Watson analizar&aacute; tus tweets para traer a la luz caracter&iacute;sticas de tu personalidad asociadas a distintas disciplinas.
-    .content-area
-      form#form(action="/profession", method="post")
-        input(name='username' type="text" pattern="^[_A-z0-9]{1,}$" maxlength="15" placeholder="Ingresa tu cuenta de Twitter sin comillas. Ejemplo: 'IBM'" required)
-        select(name="country" required)
-          option Seleccion su pa&iacute;s
-          each country in _countries
-            option(value=country[1])= country[0]
+    form#form.content-area(action='/profession' method='post')
+      input(name='username' type="text" pattern="^[_A-z0-9]{1,}$" maxlength="15" placeholder="Ingresa tu cuenta de Twitter sin comillas. Ejemplo: 'IBM'" required)
+      select(name="country" required)
+        option Seleccion su pa&iacute;s
+        each country in _countries
+          option(value=country[1])= country[0]
 
-        button(type="submit") Talentos
+      button(id="btn-submit" type="submit") Talentos
     .footer-area
       p Made with 🧠 and ❤️ for all of you.
       p 2018 @ IBM Argentina

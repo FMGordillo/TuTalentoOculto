@@ -16,20 +16,19 @@ router
     try {
       const tweets = await twitter.getTweets(username)
       const profile = await personality.getProfile(tweets)
-      res.json(profile)
-      const result = personality.calculateProfession(profile)
+      const result = personality.calculateProfession(profile.personality)
       const professions = data.professions[result]
 
       // res.json({ professions, tweets, country, profile }).send()
 
-      // res.render('response', {
-      //   title: 'Talentos ocultos',
-      //   professions,
-      //   country
-      // })
+      res.render('response', {
+        title: 'Talentos ocultos',
+        professions,
+        country
+      })
     } catch (error) {
-      console.error(error)
-      res.send('error lolol, see the logs men!', { error })
+      console.info(error)
+      res.status(500).send(error)
     }
   })
 

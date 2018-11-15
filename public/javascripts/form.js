@@ -1,8 +1,12 @@
 /* eslint-disable */
-// Handles the execution of the form
+const button = document.querySelector('#btn-submit')
+const form = document.getElementById('form')
 
-const form = document.querySelector('#form')
-form.addEventListener('onsubmit', function onSubmit(e) {
-  e.preventDefault()
-  console.log('Submitted')
-})
+form.addEventListener('submit', onSubmit)
+
+async function onSubmit(e) {
+  isButtonDisabled(true)
+  return true // ?
+}
+
+const isButtonDisabled = bool => (button.disabled = bool)

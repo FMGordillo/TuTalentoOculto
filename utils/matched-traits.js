@@ -4,7 +4,7 @@
  * Returns the big 5
  * @return Array  The 5 main traits
  */
-var big5 = origin => {
+const big5 = origin => {
   origin = typeof origin === 'string' ? JSON.parse(origin) : origin
   // var origin_big5 = origin.tree.children[0].children[0].children,
   var originBig5 = origin.personality
