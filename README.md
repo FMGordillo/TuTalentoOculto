@@ -1,5 +1,7 @@
 # Tu Talento Oculto
 
+![Logo](logo.png)
+
 Basado en la película **`Hidden Figures`**.
 
 ## Instrucciones
