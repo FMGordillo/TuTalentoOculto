@@ -14,7 +14,7 @@
     "http-errors": "~1.6.2",
     "morgan": "~1.9.0",
     "properties-parser": "^0.3.1",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "twitter": "^1.7.1",
     "watson-developer-cloud": "^3.12.0"
   },
