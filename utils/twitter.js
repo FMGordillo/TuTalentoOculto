@@ -1,4 +1,3 @@
-/* eslint-disable */
 require('dotenv').config()
 const Twitter = require('twitter')
 const {
@@ -16,22 +15,25 @@ const client = new Twitter({
 
 /**
  * Get most recent tweets from user
- * @param {String} screen_name
+ * @param {String} screenName
  *
  */
-const getTweets = screen_name =>
+const getTweets = screenName =>
   client
     .get('statuses/user_timeline', {
-      screen_name,
+      screen_name: screenName,
       count: 200,
       include_rts: false
     })
-    .then(function onResult(result) {
+    .then(function onResult (result) {
       return result.map((tweet, id) => ({
         content: tweet.text.replace(/(\r\n\t|\n|\r\t|"|@)/gm, ''),
         id,
         language: 'es'
       }))
+    })
+    .catch(error => {
+      throw new Error('getTweets error', error)
     })
 
 module.exports = {

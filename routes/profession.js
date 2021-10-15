@@ -7,9 +7,6 @@ const data = require('../utils/data.json')
 /* GET users listing. */
 
 router
-  .get('/', (req, res, next) => {
-    res.send('respond with a resource')
-  })
   .post('/', async (req, res, next) => {
     const { username, country } = req.body
 
@@ -28,7 +25,7 @@ router
       })
     } catch (error) {
       console.info(error)
-      res.status(500).send(error)
+      next(error)
     }
   })
 
